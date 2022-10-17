@@ -1,4 +1,6 @@
 import styled from '@emotion/styled'
+import ReactFlow, { Controls, Background } from 'reactflow';
+import 'reactflow/dist/style.css';
 
 const MainStyled = styled.div`
   display: flex;
@@ -16,4 +18,9 @@ export const Main = ({ children }) => {
     
     )
 }
+
+
+
+
+
 

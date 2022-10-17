@@ -1,6 +1,6 @@
 import { Dashb } from "./components/DashboardLayout";
 import styled from '@emotion/styled';
-
+import { Graph } from "./containers/Graph/Graph";
 
 const Cont = styled.div`
   display: flex;
@@ -11,7 +11,7 @@ const Cont = styled.div`
 
 export function App() {
   return <Cont><Dashb>
-    App The Main
+    <Graph />
   </Dashb></Cont>
 
 }
